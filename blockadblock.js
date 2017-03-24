@@ -241,8 +241,8 @@
 	
 	window.BlockAdBlock = BlockAdBlock;
 	
-	if(window.blockAdBlock === undefined) {
-		window.blockAdBlock = new BlockAdBlock({
+	if(window.BlockAdBlock === undefined) {
+		window.BlockAdBlock = new BlockAdBlock({
 			checkOnLoad: true,
 			resetOnEnd: true
 		});
